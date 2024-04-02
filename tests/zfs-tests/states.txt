@@ -1,0 +1,167 @@
+zfs create -b 512 -o copies=1 -V 1G
+zfs create -b 512 -V 1G
+zfs create -b 512 -o copies=3 -V 1G
+zfs create -b 512 -o compression=off -o copies=1 -V 1G
+zfs create -b 512 -o compression=off -V 1G
+zfs create -b 512 -o compression=off -o copies=3 -V 1G
+zfs create -b 512 -o checksum=off -o copies=1 -V 1G
+zfs create -b 512 -o checksum=off -V 1G
+zfs create -b 512 -o checksum=off -o copies=3 -V 1G
+zfs create -b 512 -o checksum=off -o compression=off -o copies=1 -V 1G
+zfs create -b 512 -o checksum=off -o compression=off -V 1G
+zfs create -b 512 -o checksum=off -o compression=off -o copies=3 -V 1G
+zfs create -b 1024 -o copies=1 -V 1G
+zfs create -b 1024 -V 1G
+zfs create -b 1024 -o copies=3 -V 1G
+zfs create -b 1024 -o compression=off -o copies=1 -V 1G
+zfs create -b 1024 -o compression=off -V 1G
+zfs create -b 1024 -o compression=off -o copies=3 -V 1G
+zfs create -b 1024 -o checksum=off -o copies=1 -V 1G
+zfs create -b 1024 -o checksum=off -V 1G
+zfs create -b 1024 -o checksum=off -o copies=3 -V 1G
+zfs create -b 1024 -o checksum=off -o compression=off -o copies=1 -V 1G
+zfs create -b 1024 -o checksum=off -o compression=off -V 1G
+zfs create -b 1024 -o checksum=off -o compression=off -o copies=3 -V 1G
+zfs create -b 2048 -o copies=1 -V 1G
+zfs create -b 2048 -V 1G
+zfs create -b 2048 -o copies=3 -V 1G
+zfs create -b 2048 -o compression=off -o copies=1 -V 1G
+zfs create -b 2048 -o compression=off -V 1G
+zfs create -b 2048 -o compression=off -o copies=3 -V 1G
+zfs create -b 2048 -o checksum=off -o copies=1 -V 1G
+zfs create -b 2048 -o checksum=off -V 1G
+zfs create -b 2048 -o checksum=off -o copies=3 -V 1G
+zfs create -b 2048 -o checksum=off -o compression=off -o copies=1 -V 1G
+zfs create -b 2048 -o checksum=off -o compression=off -V 1G
+zfs create -b 2048 -o checksum=off -o compression=off -o copies=3 -V 1G
+zfs create -b 4096 -o copies=1 -V 1G
+zfs create -b 4096 -V 1G
+zfs create -b 4096 -o copies=3 -V 1G
+zfs create -b 4096 -o compression=off -o copies=1 -V 1G
+zfs create -b 4096 -o compression=off -V 1G
+zfs create -b 4096 -o compression=off -o copies=3 -V 1G
+zfs create -b 4096 -o checksum=off -o copies=1 -V 1G
+zfs create -b 4096 -o checksum=off -V 1G
+zfs create -b 4096 -o checksum=off -o copies=3 -V 1G
+zfs create -b 4096 -o checksum=off -o compression=off -o copies=1 -V 1G
+zfs create -b 4096 -o checksum=off -o compression=off -V 1G
+zfs create -b 4096 -o checksum=off -o compression=off -o copies=3 -V 1G
+zfs create -b 8192 -o copies=1 -V 1G
+zfs create -b 8192 -V 1G
+zfs create -b 8192 -o copies=3 -V 1G
+zfs create -b 8192 -o compression=off -o copies=1 -V 1G
+zfs create -b 8192 -o compression=off -V 1G
+zfs create -b 8192 -o compression=off -o copies=3 -V 1G
+zfs create -b 8192 -o checksum=off -o copies=1 -V 1G
+zfs create -b 8192 -o checksum=off -V 1G
+zfs create -b 8192 -o checksum=off -o copies=3 -V 1G
+zfs create -b 8192 -o checksum=off -o compression=off -o copies=1 -V 1G
+zfs create -b 8192 -o checksum=off -o compression=off -V 1G
+zfs create -b 8192 -o checksum=off -o compression=off -o copies=3 -V 1G
+zfs create -b 16384 -o copies=1 -V 1G
+zfs create -b 16384 -V 1G
+zfs create -b 16384 -o copies=3 -V 1G
+zfs create -b 16384 -o compression=off -o copies=1 -V 1G
+zfs create -b 16384 -o compression=off -V 1G
+zfs create -b 16384 -o compression=off -o copies=3 -V 1G
+zfs create -b 16384 -o checksum=off -o copies=1 -V 1G
+zfs create -b 16384 -o checksum=off -V 1G
+zfs create -b 16384 -o checksum=off -o copies=3 -V 1G
+zfs create -b 16384 -o checksum=off -o compression=off -o copies=1 -V 1G
+zfs create -b 16384 -o checksum=off -o compression=off -V 1G
+zfs create -b 16384 -o checksum=off -o compression=off -o copies=3 -V 1G
+zfs create -b 32768 -o copies=1 -V 1G
+zfs create -b 32768 -V 1G
+zfs create -b 32768 -o copies=3 -V 1G
+zfs create -b 32768 -o compression=off -o copies=1 -V 1G
+zfs create -b 32768 -o compression=off -V 1G
+zfs create -b 32768 -o compression=off -o copies=3 -V 1G
+zfs create -b 32768 -o checksum=off -o copies=1 -V 1G
+zfs create -b 32768 -o checksum=off -V 1G
+zfs create -b 32768 -o checksum=off -o copies=3 -V 1G
+zfs create -b 32768 -o checksum=off -o compression=off -o copies=1 -V 1G
+zfs create -b 32768 -o checksum=off -o compression=off -V 1G
+zfs create -b 32768 -o checksum=off -o compression=off -o copies=3 -V 1G
+zfs create -o recordsize=512 -o copies=1
+zfs create -o recordsize=512
+zfs create -o recordsize=512 -o copies=3
+zfs create -o recordsize=512 -o compression=off -o copies=1
+zfs create -o recordsize=512 -o compression=off
+zfs create -o recordsize=512 -o compression=off -o copies=3
+zfs create -o recordsize=512 -o checksum=off -o copies=1
+zfs create -o recordsize=512 -o checksum=off
+zfs create -o recordsize=512 -o checksum=off -o copies=3
+zfs create -o recordsize=512 -o checksum=off -o compression=off -o copies=1
+zfs create -o recordsize=512 -o checksum=off -o compression=off
+zfs create -o recordsize=512 -o checksum=off -o compression=off -o copies=3
+zfs create -o recordsize=1024 -o copies=1
+zfs create -o recordsize=1024
+zfs create -o recordsize=1024 -o copies=3
+zfs create -o recordsize=1024 -o compression=off -o copies=1
+zfs create -o recordsize=1024 -o compression=off
+zfs create -o recordsize=1024 -o compression=off -o copies=3
+zfs create -o recordsize=1024 -o checksum=off -o copies=1
+zfs create -o recordsize=1024 -o checksum=off
+zfs create -o recordsize=1024 -o checksum=off -o copies=3
+zfs create -o recordsize=1024 -o checksum=off -o compression=off -o copies=1
+zfs create -o recordsize=1024 -o checksum=off -o compression=off
+zfs create -o recordsize=1024 -o checksum=off -o compression=off -o copies=3
+zfs create -o recordsize=2048 -o copies=1
+zfs create -o recordsize=2048
+zfs create -o recordsize=2048 -o copies=3
+zfs create -o recordsize=2048 -o compression=off -o copies=1
+zfs create -o recordsize=2048 -o compression=off
+zfs create -o recordsize=2048 -o compression=off -o copies=3
+zfs create -o recordsize=2048 -o checksum=off -o copies=1
+zfs create -o recordsize=2048 -o checksum=off
+zfs create -o recordsize=2048 -o checksum=off -o copies=3
+zfs create -o recordsize=2048 -o checksum=off -o compression=off -o copies=1
+zfs create -o recordsize=2048 -o checksum=off -o compression=off
+zfs create -o recordsize=2048 -o checksum=off -o compression=off -o copies=3
+zfs create -o recordsize=4096 -o copies=1
+zfs create -o recordsize=4096
+zfs create -o recordsize=4096 -o copies=3
+zfs create -o recordsize=4096 -o compression=off -o copies=1
+zfs create -o recordsize=4096 -o compression=off
+zfs create -o recordsize=4096 -o compression=off -o copies=3
+zfs create -o recordsize=4096 -o checksum=off -o copies=1
+zfs create -o recordsize=4096 -o checksum=off
+zfs create -o recordsize=4096 -o checksum=off -o copies=3
+zfs create -o recordsize=4096 -o checksum=off -o compression=off -o copies=1
+zfs create -o recordsize=4096 -o checksum=off -o compression=off
+zfs create -o recordsize=4096 -o checksum=off -o compression=off -o copies=3
+zfs create -o copies=1
+zfs create -o copies=3
+zfs create -o compression=off -o copies=1
+zfs create -o compression=off
+zfs create -o compression=off -o copies=3
+zfs create -o checksum=off -o copies=1
+zfs create -o checksum=off
+zfs create -o checksum=off -o copies=3
+zfs create -o checksum=off -o compression=off -o copies=1
+zfs create -o checksum=off -o compression=off
+zfs create -o checksum=off -o compression=off -o copies=3
+zfs create -o recordsize=16384 -o copies=1
+zfs create -o recordsize=16384
+zfs create -o recordsize=16384 -o copies=3
+zfs create -o recordsize=16384 -o compression=off -o copies=1
+zfs create -o recordsize=16384 -o compression=off
+zfs create -o recordsize=16384 -o compression=off -o copies=3
+zfs create -o recordsize=16384 -o checksum=off -o copies=1
+zfs create -o recordsize=16384 -o checksum=off
+zfs create -o recordsize=16384 -o checksum=off -o copies=3
+zfs create -o recordsize=16384 -o checksum=off -o compression=off -o copies=1
+zfs create -o recordsize=16384 -o checksum=off -o compression=off
+zfs create -o recordsize=16384 -o checksum=off -o compression=off -o copies=3
+zfs create -o recordsize=32768 -o copies=1
+zfs create -o recordsize=32768
+zfs create -o recordsize=32768 -o copies=3
+zfs create -o recordsize=32768 -o compression=off -o copies=1
+zfs create -o recordsize=32768 -o compression=off
+zfs create -o recordsize=32768 -o compression=off -o copies=3
+zfs create -o recordsize=32768 -o checksum=off -o copies=1
+zfs create -o recordsize=32768 -o checksum=off
+zfs create -o recordsize=32768 -o checksum=off -o copies=3
+zfs create -o recordsize=32768 -o checksum=off -o compression=off -o copies=1
+zfs create -o recordsize=32768 -o checksum=off -o compression=off
+zfs create -o recordsize=32768 -o checksum=off -o compression=off -o copies=3

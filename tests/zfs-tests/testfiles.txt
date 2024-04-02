@@ -1,0 +1,3 @@
+zfs-tests/tests/functional/cli_root/zfs_create/zfs_create_001_pos.ksh
+zfs-tests/tests/functional/cli_root/zfs_destroy/zfs_destroy_004_pos.ksh
+zfs-tests/tests/functional/cli_root/zfs_destroy/zfs_destroy_015_pos.ksh
