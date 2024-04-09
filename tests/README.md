@@ -1,6 +1,6 @@
 # ZFS Test Suite README
 
-### 1) Building and installing the ZFS Test Suite
+### 1) Building and installing the Custom ZFS Test Suite
 
 The ZFS Test Suite runs under the test-runner framework.  This framework
 is built along side the standard ZFS utilities and is included as part of
@@ -10,9 +10,7 @@ zfs-test package.  The zfs-test package can be built from source as follows:
     $ make pkg-utils
 
 The resulting packages can be installed using the rpm or dpkg command as
-appropriate for your distributions.  Alternately, if you have installed
-ZFS from a distributions repository (not from source) the zfs-test package
-may be provided for your distribution.
+appropriate for your distributions.
 
     - Installed from source
     $ rpm -ivh ./zfs-test*.rpm, or
@@ -22,7 +20,7 @@ may be provided for your distribution.
     $ yum install zfs-test
     $ apt-get install zfs-test
 
-### 2) Running the ZFS Test Suite
+### 2) Running the custom ZFS Test Suite
 
 The pre-requisites for running the ZFS Test Suite are:
 
