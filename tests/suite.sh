@@ -195,30 +195,24 @@ elif [ $# -eq 2 ]; then
     echo "Two arguments provided: $1 and $2"
 
     if [[ "$1" == *"ksh"* ]]; then
-	statesArray=($2)
+	statesArray=("$2")
 	testsArray=($1)
     else
-        statesArray=($1)
+        statesArray=("$1")
 	testsArray=($2)
     fi
 
     echo "Running specific test."
 fi
 
-echo "49"
-
 #COMMAND="./zfs-tests.sh -t ../zfs-tests/tests/functional/cli_root/zfs_create/zfs_create_001_pos.ksh"
 
 for script in "${testsArray[@]}"; do
-
-    echo "55"
 
     COMMAND="./zfs-tests.sh -t ../$script"
 
     # Default command to replace
     replace="zfs create"
-
-    echo "62"
 
     for state in "${statesArray[@]}"; do
 
@@ -226,8 +220,6 @@ for script in "${testsArray[@]}"; do
 
 	#Replace the state in the current test
 	sudo sed -i "s/$replace/$state/g" "$script"
-
-	echo "71"
 
 	#Print state being tested
 	echo -e "\n\nNow testing: \n$state\n$script\n"

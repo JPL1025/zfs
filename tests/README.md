@@ -46,19 +46,19 @@ Once the pre-requisites are satisfied simply run the custom test script:
 Running it this way will run the entire suite (which will take a long time).
 
 To run a subset of the test suite, we can add one of the tests found in
-testfiles.txt as a parameter to test only from that test, as shown below:
+testsArray in suite.sh as a parameter to test only from that test, as shown below:
 
-    $ ./suite.sh (from within the zfs/tests directory)
+    $ ./suite.sh zfs-tests/tests/functional/cli_root/zfs_create/zfs_create_001_pos.ksh (from within the zfs/tests directory)
 
 We can also use one of the zfs configurations found in states.txt to test all
-tests with just one state:
+tests with just one state: (NOTE: the quotations are required!)
 
-    $ ./suite.sh (from within the zfs/tests directory)
+    $ ./suite.sh "zfs create" (from within the zfs/tests directory)
 
 Finally, we can specify both a test and a state (order does not matter) to run
 the test with that state (just one test run).
 
-    $ ./suite.sh (from within the zfs/tests directory)
+    $ ./suite.sh zfs-tests/tests/functional/cli_root/zfs_create/zfs_create_001_pos.ksh "zfs create" (from within the zfs/tests directory)
 
 ### 3) Test results
 
